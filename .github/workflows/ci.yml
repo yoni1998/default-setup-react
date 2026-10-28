@@ -56,6 +56,7 @@ jobs:
         run: pnpm run test:e2e
 
   build:
+    needs: [security, quality, test]
     name: Production Build
     runs-on: ubuntu-latest
 
