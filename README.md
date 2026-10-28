@@ -14,20 +14,6 @@ A scalable React application built with **TypeScript**, **Vite**, and **Node 24*
 - **Storybook** — Develops, documents, and tests UI components in isolation, including their different states and variations.
 - **Husky** — Git hooks integration.
 
-## Architecture
-
-The project follows a **feature-based architecture inspired by Bulletproof React** to keep the codebase modular, maintainable, and scalable.
-
-Code is organized around application features rather than grouping everything by technical type. This helps keep related components, hooks, services, and other feature-specific code together.
-
-The architecture aims to establish clear boundaries between:
-
-- **App** — Application-level setup and composition.
-- **Features** — Self-contained business features and their related functionality.
-- **Shared** — Reusable components, hooks, utilities, and other code that is not specific to a single feature.
-
-Dependency Cruiser helps enforce these boundaries by detecting unwanted dependencies between modules.
-
 ## Getting Started
 
 ### Prerequisites
